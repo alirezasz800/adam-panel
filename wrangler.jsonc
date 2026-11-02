@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "adam-panel",
+  "name": "adam",
   "main": "src/index.js",
   "compatibility_date": "2026-11-02",
   "workers_dev": true,
