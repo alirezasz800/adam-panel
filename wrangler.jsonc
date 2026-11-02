@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "adam-panel",
+  "main": "src/index.js",
+  "compatibility_date": "2026-11-02",
+  "workers_dev": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "adam-db",
+      "database_id": "dd7400e9-6f36-472d-bf6e-ffce3178fb60",
+      "migrations_dir": "migrations"
+    }
+  ]
+}
